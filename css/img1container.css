@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.header-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+.header-keywords {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.header-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+.circle {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 8px;
+}
+.special-circle {
+    font-size: 10px;
+    color: #ffad33;
+}
+
