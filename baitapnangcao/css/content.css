@@ -1,0 +1,124 @@
+.content {
+    
+}
+.header-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 40px 0 20px;
+}
+.header-content-right {
+    display: flex;
+    gap: 60px; 
+}
+.icon-group {
+    display: flex;
+    gap: 2px;
+}
+.icon {
+    font-size: 10px;
+}
+
+.first-img-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+}
+.img-left-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+.first-img-under {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    background-color: #fff;
+    height: 10px;
+    width: 190px;
+    align-items: center;
+    padding: 25px;
+}
+.summercollection {
+    font-size: 80px;
+}
+.mid-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px;
+}
+.mid-title-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mid-title {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.mid-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mid-img-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.mid-img {
+    height: 300px;
+    width: 250px;
+    border: 1px solid #bdbdbd;
+    border-radius: 4px;
+    padding: 5px;
+    object-fit: cover;
+}
+.mid-money {
+    color: #66afff;
+}
+.under-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 600px;
+    gap: 20px;
+    padding: 50px;
+}
+.grid-img1 {
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 500px;
+}
+.grid-img2,
+.grid-img3 {
+    justify-content: center;
+    padding-left: 90px;
+    padding-top: 30px;
+}
+.ic1 {
+    height: 34px;
+    width: 24px;
+    background-color: #bdbdbd;
+    align-items: center;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
